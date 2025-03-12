@@ -1,0 +1,55 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "good morning"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there!",
+                "Hey, good to see you!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "later"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Take care!"
+            ]
+        },
+        {
+            "tag": "general_healthcare",
+            "patterns": [
+                "I have an headache",
+                "I have an headache what i do get long instructions like step by step guide",
+                "I have a headache what i do?",
+                "headache",
+                "headache",
+                "stomachace",
+                "I have stomschace",
+                "I have eye problem whai kind of docctor am i chanelling?"
+            ],
+            "responses": [
+                "Over-the-counter pain relievers like acetaminophen or ibuprofen can help. Stay hydrated and rest in a quiet space. If severe or persistent, consult a doctor to rule out underlying conditions.",
+                "Drink water, rest, and take over-the-counter pain relievers like acetaminophen or ibuprofen. For more, visit a healthcare provider for a personalized step-by-step guide.",
+                "Drink water, rest, and take over-the-counter pain relievers like acetaminophen or ibuprofen. If severe, consult a doctor to rule out underlying conditions.",
+                "Common causes include dehydration, stress, and tension. Rest, hydration, and over-the-counter pain relievers can help. Consult a doctor if headaches are severe or frequent.",
+                "Common causes of headaches include tension, dehydration, and stress. Staying hydrated, practicing relaxation techniques, and maintaining a consistent sleep schedule can help alleviate symptoms. If severe, consult a healthcare professional for proper diagnosis and treatment.",
+                "Stomach ache can be due to various reasons. Stay hydrated, avoid spicy food, and consider over-the-counter antacids. If severe, consult a doctor to rule out underlying conditions.",
+                "It seems you meant \"stomach ache.\" Drink plenty of fluids, and consider over-the-counter antacids or acid reducers for relief. If symptoms persist, consult a doctor.",
+                "You should consult an Ophthalmologist, a doctor specializing in eye and vision care."
+            ]
+        }
+    ]
+}
